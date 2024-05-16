@@ -1,0 +1,19 @@
+@import './variables';
+
+@mixin tabletlarge {
+    @media (max-width: #{$tabletlarge}) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (max-width: #{$tablet}) {
+        @content;
+    }
+}
+
+@mixin smartphone {
+    @media (max-width: #{$smartphone}) {
+        @content;
+    }
+}
